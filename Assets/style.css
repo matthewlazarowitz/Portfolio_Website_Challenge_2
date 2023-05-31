@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ACBDBA;
+}
+
+.header {
+    background-color: #CDDDDD;
+    padding: 20px;
+    color: #0E1C36;
+}
+
+.name {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 60px;
+}
+
+.header nav {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    color: #0E1C36;
+    font-size: 40px;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.links {
+    color: #0e1c36;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.selfpicture {
+    height: 700px;
+    width: 25%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 5px;
+    background-image: url("Image.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+
+.pages {
+    width: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.about h3 {
+    padding-top: 65px;
+    margin-right: 30%;
+    float: right;
+    color: #0E1C36;
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.about p {
+    padding-top: 20px;
+    margin-right: 5%;
+    width: 60%;
+    float: right;
+    color: #0E1C36;
+    font-size: 60px;
+}
+
+.works h4 {
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: #0E1C36;
+    font-size: 70px;
+}
+
+.works nav ul {
+    list-style: none;
+}
+
+.works nav ul li {
+    padding-top: 50px;
+    margin-left: 4%;
+    display: inline-block;
+    opacity: 100%;
+}
+
+.works nav ul li:hover {
+    opacity: 25%;
+}
+
+.works h3 {
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: monospace;
+    text-decoration: overline;
+}
+
+.works h2 {
+    margin-top: 6px;
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: overline;
+}
+
+.works h1 {
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: overline;
+}
+
+.footer {
+    background-color: #CDDDDD;
+    margin-top: 100px;
+}
+
+.contact {
+    padding: 30px;
+    font-size: 36px;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact li {
+    margin-right: 50px;
+}
